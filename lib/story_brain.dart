@@ -31,11 +31,11 @@ class StoryBrain {
         '')
   ];
 
-  String getStory(int index) => _storyData[index].storyTitle;
+  String getStory() => _storyData[_storyNumber].storyTitle;
 
-  String getChoice1(int index) => _storyData[index].choice1;
+  String getChoice1() => _storyData[_storyNumber].choice1;
 
-  String getChoice2(int index) => _storyData[index].choice2;
+  String getChoice2() => _storyData[_storyNumber].choice2;
 
   void restart(){
     _storyNumber = 0;
